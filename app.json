@@ -1,0 +1,28 @@
+{
+  "name": "Slack Slash Command for ZenDesk",
+  "description": "Use a slash command and a dialog to create a ticket in ZenDesk. Once it has been created, send a message to the user with information about their ticket.",
+  "repository": "https://github.com/kuleszaj/slack-zendesk-slash-command",
+  "env": {
+    "SLACK_ACCESS_TOKEN": {
+      "description": "Your Slack app's xoxp token.",
+    },
+    "SLACK_VERIFICATION_TOKEN": {
+      "description": "Your Slack app's verification token."
+    },
+    "PORT": {
+      "description": "The port that you want to run the web server on."
+    },
+    "ZENDESK_URL": {
+      "description": "URL of your Zendesk installation."
+    },
+    "ZENDESK_EMAIL": {
+      "description": "E-mail address of user for authentication to Zendesk."
+    },
+    "ZENDESK_API_TOKEN": {
+      "description": "API tocken for user authentication to Zendesk."
+    },
+    "ZENDESK_GUIDE_URL": {
+      "description": "URL of your Zendesk guide (for linking end-users to submitted tickets)."
+    }
+  }
+}
